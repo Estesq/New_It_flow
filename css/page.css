@@ -6,6 +6,37 @@
   color: rgba(51, 42, 124, 255);
 }
 
+.m-show-footer {
+  display: none;
+}
+
+.m-hide-footer {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .m-show-footer {
+    display: flex;
+  }
+
+  .m-hide-footer {
+    display: none;
+  }
+
+  footer .m-show-footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 17px;
+  }
+
+  footer .m-show-footer ul li {
+    margin-top: 5px;
+    /* font-weight: 600; */
+    text-decoration: none;
+  }
+}
+
 .font-weight-600 {
   font-weight: 600;
 }
