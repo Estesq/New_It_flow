@@ -1,0 +1,32 @@
+.custom-color {
+  background-color: #a6a2c6;
+}
+
+.custom-color-text {
+  color: rgba(51, 42, 124, 255);
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  font-size: 23px;
+}
+
+footer ul li {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+footer ul li a {
+  color: rgba(51, 42, 124, 255);
+  text-decoration: none !important;
+}
+
+footer ul li a:hover {
+  text-decoration: none !important;
+  color: rgba(51, 42, 124, 255);
+}
