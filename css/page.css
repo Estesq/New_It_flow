@@ -6,6 +6,56 @@
   color: rgba(51, 42, 124, 255);
 }
 
+/* contact upper */
+#contact .row h3 {
+font-weight: 600;
+}
+
+/* contact */
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.text-on-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.m-show-contact {
+  display: none;
+}
+
+.m-hide-contact {
+  display: block;
+}
+
+.img-container p {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .m-show-contact {
+    display: block;
+  }
+
+  .m-hide-contact {
+    display: none;
+  }
+
+  .img-container p {
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+  }
+}
+
+/* footer */
 .m-show-footer {
   display: none;
 }
